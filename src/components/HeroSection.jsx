@@ -1,7 +1,6 @@
 export const HeroSection = () => {
   return (
-    <section className="hero bg-light1 pt-5 pb-3 pb-md-5">
-      {/* py-5 */}
+    <section className="hero bg-light pt-5 pb-3 pb-md-5">
       <div className="container">
         <div className="row align-items-center">
           

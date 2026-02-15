@@ -1,6 +1,6 @@
 export const HowItWorks = () => {
     return (
-        <section className="py-5 bg-light">
+        <section className="py-5 bg-light2">
             <div className="container">
 
                 {/* Title */}
