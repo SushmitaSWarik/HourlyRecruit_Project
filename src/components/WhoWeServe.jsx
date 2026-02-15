@@ -1,7 +1,7 @@
 export const WhoWeServe=()=>{
     return(
         <section className="bg-light2">
-        <section className="container py-4 py-md-5">
+        <section className="container py-5 py-md-5">
             {/* Heading */}
             <div className="row text-center mb-4 mb-md-5">
                 <h2 className="fw-bold">Who We Serve?</h2>
