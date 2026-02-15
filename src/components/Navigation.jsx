@@ -1,7 +1,6 @@
-// Good using bootstrap, remove focus
 export const Navigation = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-light py-3 shadow-sm">
+        <nav className="navbar navbar-expand-lg bg-light py-3 shadow-sm fixed-top">
             <div className="container">
 
                 {/* Logo */}
