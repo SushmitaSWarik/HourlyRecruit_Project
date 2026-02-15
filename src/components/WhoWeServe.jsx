@@ -1,18 +1,18 @@
 export const WhoWeServe=()=>{
     return(
-        <section className="bg-light2">
+        <section className="custom-bg">
         <section className="container py-5 py-md-5">
             {/* Heading */}
             <div className="row text-center mb-4 mb-md-5">
                 <h2 className="fw-bold">Who We Serve?</h2>
             </div>
 
-            <div className="row">
-                <div className="col-md-6 d-flex align-items-start font-size">
+            <div className="row text-muted px-2 px-md-0">
+                <div className="col-md-6 d-flex align-items-start font-size lg-font">
                     <i className="fa-solid fa-angles-left me-3 mt-1"></i>
                     <p className="mb-3 mb-md-0">Startups needing fast developer bandwidth</p>
                 </div>
-                <div className="col-md-6 d-flex align-items-start font-size">
+                <div className="col-md-6 d-flex align-items-start font-size lg-font">
                     <i className="fa-solid fa-angles-left me-3 mt-1"></i>
                     <p className="mb-0">No HR headaches, instant developer ramp-up for our sprints</p>
                 </div>

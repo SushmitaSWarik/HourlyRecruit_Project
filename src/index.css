@@ -41,18 +41,29 @@ body {
   color: white;
 }
 
-.bg-light1{
-  background-color: #f8fafc;
-}
-
-.bg-light2{
-  background-color: #ebf4ff;
+.custom-bg {
+  background-color: #f5f5f5;
 }
 
 .font-size{
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
   /* font-weight: 400; */
+  font-size: 1rem;
 }
+
 i{
   color: #939596;
+}
+
+/* removing outline of hamburger icon when focused */
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+@media (min-width: 768px) {
+  .lg-font {
+    font-size: 1.125rem;
+  }
 }

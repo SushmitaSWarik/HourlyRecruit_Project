@@ -9,11 +9,11 @@ export const WhyHourlyRec = () => {
             </div>
 
             {/* Two Column Layout */}
-            <div className="row justify-content-center">
+            <div className="row justify-content-center text-muted px-2 px-md-0">
 
                 {/* Left Column */}
                 <div className="col-md-6">
-                    <ul className="list-unstyled font-size mb-0 mb-2">
+                    <ul className="list-unstyled font-size lg-font mb-0 mb-2">
                         <li className="mb-2 d-flex align-items-start mb-2">
                             <i className="fa-solid fa-check me-3  mt-1"></i>
                             <span>No long-term lock-ins</span>
@@ -31,7 +31,7 @@ export const WhyHourlyRec = () => {
 
                 {/* Right Column */}
                 <div className="col-md-6">
-                    <ul className="list-unstyled font-size">
+                    <ul className="list-unstyled font-size lg-font">
                         <li className="mb-2 d-flex align-items-start  mb-2">
                             <i class="fa-solid fa-check me-3 mt-1"></i>
                             <span>Startups needing fast development</span>
