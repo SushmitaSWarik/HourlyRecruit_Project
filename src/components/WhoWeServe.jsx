@@ -10,7 +10,7 @@ export const WhoWeServe=()=>{
             <div className="row">
                 <div className="col-md-6 d-flex align-items-center font-size">
                     <i className="fa-solid fa-angles-left me-3"></i>
-                    <p className="mb-0">Startups needing fast developer bandwidth</p>
+                    <p className="mb-3 mb-md-0">Startups needing fast developer bandwidth</p>
                 </div>
                 <div className="col-md-6 d-flex align-items-center font-size">
                     <i className="fa-solid fa-angles-left me-3"></i>
